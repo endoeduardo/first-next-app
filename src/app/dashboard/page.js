@@ -10,14 +10,14 @@ export default function Dashboard() {
                     {/* Valor Financiado */}
                     <div className="md:col-span-3">
                         <div className="flex rounded-md shadow-sm">
-                            <span className="inline-flex items-center px-3 rounded-l-md border border-gray-300 bg-gray-100 text-gray-700 text-sm">
+                            <span className="inline-flex items-center px-3 rounded-l-md border dark:bg-gray-800 text-white text-sm">
                                 R$
                             </span>
                             <input
                                 type="text"
                                 id="valorFinanciado"
                                 placeholder="Valor financiado"
-                                className="border border-gray-300 rounded-r-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                className="border rounded-r-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             />
                         </div>
                     </div>
@@ -25,14 +25,14 @@ export default function Dashboard() {
                     {/* Entrada */}
                     <div className="md:col-span-3">
                         <div className="flex rounded-md shadow-sm">
-                            <span className="inline-flex items-center px-3 rounded-l-md border border-gray-300 bg-gray-100 text-gray-700 text-sm">
+                            <span className="inline-flex items-center px-3 rounded-l-md border  dark:bg-gray-800 text-white text-sm">
                                 R$
                             </span>
                             <input
                                 type="text"
                                 id="entrada"
                                 placeholder="Entrada"
-                                className="border border-gray-300 rounded-r-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                className="border rounded-r-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             />
                         </div>
                     </div>
@@ -44,16 +44,16 @@ export default function Dashboard() {
                                 type="text"
                                 id="taxaJuros"
                                 placeholder="Taxa de Juros"
-                                className="border border-gray-300 rounded-l-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                className="border  rounded-l-md px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             />
-                            <span className="inline-flex items-center px-3 rounded-r-md border border-l-0 border-gray-300 bg-gray-100 text-gray-700 text-sm">
+                            <span className="inline-flex items-center px-3 rounded-r-md border border-l-0  dark:bg-gray-800 text-white text-sm">
                                 %
                             </span>
                         </div>
                     </div>
                 </div>
                 <div className="md:col-span-2 flex justify-center">
-                    <button type="submit" className="bg-gray-700 text-white px-4 py-2 rounded-md">
+                    <button type="submit" className="dark:bg-gray-800 text-white px-4 py-2 rounded-md">
                         Calcular
                     </button>
                 </div>
