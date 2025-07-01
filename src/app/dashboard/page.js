@@ -1,12 +1,15 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/navbar";
 
 export default function Dashboard() {
   return (
-    <Navbar />
-    
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Dashboard</h1>
-      <p className="mt-4 text-lg">This is the dashboard page.</p>
-    </main>
+    <>  
+        <Navbar />
+        
+
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <h1 className="text-4xl font-bold">Dashboard</h1>
+        <p className="mt-4 text-lg">This is the dashboard page.</p>
+        </main>
+    </>
   );
 }
