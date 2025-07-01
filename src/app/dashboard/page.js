@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+import ChartCard from "../components/chart";
 
 export default function Dashboard() {
     return (
@@ -59,8 +60,7 @@ export default function Dashboard() {
             </form>
 
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
-                <h1 className="text-4xl font-bold">Dashboard</h1>
-                <p className="mt-4 text-lg">This is the dashboard page.</p>
+                <ChartCard />
             </main>
         </>
     );
